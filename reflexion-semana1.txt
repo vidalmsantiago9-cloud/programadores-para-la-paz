@@ -1,0 +1,4 @@
+REFLEXIÓN SOBRE CIUDADANÍA Y SEGURIDAD DIGITAL
+La ciudadanía digital implica no solo tener acceso a la tecnología, sino también saber utilizarla de manera ética y segura. En el contexto actual, la participación ciudadana se ve potenciada por las herramientas digitales, pero esto conlleva la responsabilidad de proteger nuestra privacidad y la de los demás. 
+
+El uso de herramientas de control de versiones como Git y plataformas como GitHub es fundamental para el trabajo técnico organizado. Estas herramientas nos permiten mantener un registro histórico de nuestros avances, colaborar de forma transparente y asegurar la integridad de la información. Al integrar estos hábitos en nuestra formación, no solo mejoramos nuestras habilidades técnicas, sino que también promovemos un entorno digital más confiable y profesional para todos.

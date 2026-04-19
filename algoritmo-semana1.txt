@@ -1,0 +1,10 @@
+ALGORITMO PARA COMPARTIR INFORMACIÓN CONFIABLE
+Inicio
+1. Leer la noticia o información encontrada en internet.
+2. Identificar la fuente original y el autor del contenido.
+3. Buscar la misma noticia en al menos dos medios de comunicación reconocidos.
+4. Verificar si la fecha de publicación es reciente y acorde al contexto.
+5. Evaluar si el contenido tiene un tono imparcial o si busca generar pánico/sensacionalismo.
+6. Si la información es verídica y útil, proceder a compartirla citando la fuente.
+7. Si hay dudas sobre su veracidad, abstenerse de compartir para evitar la desinformación.
+Fin
