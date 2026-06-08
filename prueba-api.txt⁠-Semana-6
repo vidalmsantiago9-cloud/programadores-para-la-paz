@@ -1,0 +1,9 @@
+Al enviar la petición POST a la ruta http://localhost:3000/registro con el JSON de Maria, el servidor procesa los datos gracias al middleware express.json(). 
+
+La respuesta que devuelve el servidor en la herramienta de pruebas (como Postman o Thunder Client) es un objeto JSON que confirma la recepción exitosa:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
