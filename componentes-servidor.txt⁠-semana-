@@ -1,0 +1,14 @@
+Sistema operativo:
+Es el entorno base de software que administra directamente los recursos de hardware de la máquina servidor, permitiendo ejecutar y dar soporte estable a plataformas de software y bases de datos.
+
+Node.js:
+Es un entorno de ejecución para JavaScript construido con el motor V8 de Chrome, que permite interpretar y ejecutar código de programación del lado del servidor de forma asíncrona y eficiente.
+
+Aplicación server.js:
+Es el archivo de código fuente principal creado por el desarrollador que define las rutas, la lógica de negocio, los servicios de la API y el comportamiento que tendrá el servidor ante las peticiones.
+
+Puerto:
+Es una interfaz o canal virtual específico dentro del sistema operativo (en este caso el 3000) por el cual el servidor escucha y canaliza el tráfico de datos y peticiones de red entrantes.
+
+Logs:
+Son archivos de texto automatizados que registran cronológicamente todo el historial de eventos, accesos, peticiones HTTP y errores del sistema, sirviendo como bitácora esencial para auditar la plataforma.
