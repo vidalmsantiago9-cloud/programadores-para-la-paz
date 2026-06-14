@@ -1,0 +1,5 @@
+1. No exponer datos personales ni información sensible de los miembros de la comunidad en directorios o archivos públicos.
+2. Proteger las credenciales de acceso mediante el uso obligatorio de contraseñas robustas y la implementación de autenticación de dos factores (2FA).
+3. Usar conexiones seguras y cifradas (como protocolos HTTPS y SSH) para interactuar con la plataforma y transferir datos.
+4. Registrar y auditar los accesos al servidor mediante logs para detectar comportamientos inusuales o intentos de ingreso no autorizados.
+5. Limitar el acceso a información sensible aplicando el principio de mínimo privilegio, asegurando que cada usuario o desarrollador solo acceda a lo estrictamente necesario para su rol.
