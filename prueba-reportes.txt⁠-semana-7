@@ -1,0 +1,5 @@
+Al realizar la consulta mediante la ruta GET /reportes cuando el array está vacío, el servidor responde con un arreglo vacío []. 
+
+Tras enviar una petición POST con los datos del reporte, el servidor procesa el objeto, le asigna un ID único basado en la longitud del array y lo guarda en memoria. 
+
+Al consultar nuevamente con la ruta GET, el servidor devuelve un arreglo JSON que contiene el reporte registrado con su respectivo ID, tipo y descripción.
