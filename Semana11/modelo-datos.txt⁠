@@ -1,0 +1,18 @@
+Entidad: Causa
+Campos principales:
+- id
+- titulo
+- descripcion
+- estado
+- fecha_creacion
+
+Propósito: Almacenar las necesidades comunitarias reportadas para que sean visibles en la plataforma.
+
+Entidad: Usuario
+Campos principales:
+- id
+- nombre_usuario
+- correo_electrónico
+- rol
+
+Propósito: Identificar a las personas que interactúan con la plataforma para gestionar permisos.
