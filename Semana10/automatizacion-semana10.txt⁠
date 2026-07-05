@@ -1,0 +1,4 @@
+Evento: Registro de nuevo reporte en la base de datos.
+Acción: Envío de mensaje a Telegram mediante n8n.
+Mensaje: "Alerta: Se ha registrado un nuevo reporte en el sistema comunitario. Revisar tablero de control."
+Información prohibida: Nombres, documentos, direcciones, teléfonos, claves o tokens de acceso.
