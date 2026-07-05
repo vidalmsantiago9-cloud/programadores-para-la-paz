@@ -1,0 +1,19 @@
+const express = require('express');
+const app = express();
+app.use(express.json());
+
+let reportes = [];
+
+app.post('/reporte', (req, res) => {
+    const nuevoReporte = {
+        id: reportes.length + 1,
+        titulo: req.body.titulo,
+        fecha: new Date().toISOString()
+    };
+    reportes.push(nuevoReporte);
+    
+    console.log("Evento detectado: Nuevo reporte registrado.");
+    res.status(201).send({ mensaje: "Reporte listo para automatización", data: nuevoReporte });
+});
+
+app.listen(3000, () => console.log("Servidor de automatización corriendo en puerto 3000"));
