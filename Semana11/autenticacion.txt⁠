@@ -1,0 +1,4 @@
+El login es el proceso donde la aplicación identifica a un usuario mediante credenciales para asegurar su acceso. 
+Algunas rutas deben protegerse porque contienen información crítica como estados de denuncias o datos de contacto. 
+No se deben exponer públicamente contraseñas, documentos de identidad, teléfonos, direcciones o tokens. 
+Si estas rutas fueran públicas, cualquier persona podría manipular los datos comunitarios o poner en riesgo la seguridad de los ciudadanos, rompiendo la confianza necesaria para el ejercicio de la veeduría.
