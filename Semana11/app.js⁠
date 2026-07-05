@@ -1,0 +1,25 @@
+// Servidor básico para plataforma comunitaria
+const express = require('express');
+const app = express();
+app.use(express.json());
+
+let causas = [
+    { id: 1, titulo: "Mejora de alumbrado", apoyos: 10 }
+];
+
+app.get('/causas', (req, res) => {
+    res.json(causas);
+});
+
+app.post('/apoyar/:id', (req, res) => {
+    const causa = causas.find(c => c.id == req.params.id);
+    if (causa) {
+        causa.apoyos++;
+        res.send("Apoyo registrado con éxito");
+    } else {
+        res.status(404).send("Causa no encontrada");
+    }
+});
+
+const PORT = 3000;
+app.listen(PORT, () => console.log("Servidor corriendo en el puerto " + PORT));
