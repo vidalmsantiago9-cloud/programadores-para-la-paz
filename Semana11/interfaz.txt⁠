@@ -1,0 +1,4 @@
+La interfaz será sencilla y enfocada en el usuario. Tendrá una sección de "Causas Disponibles" donde se visualizarán los reportes. 
+Habrá un formulario para crear una nueva causa con campos de título y descripción. 
+Cada causa tendrá un botón de "Apoyar" y un contador en tiempo real. 
+El diseño garantizará que no se muestre información privada en las vistas públicas, manteniendo el enfoque en el impacto comunitario.
