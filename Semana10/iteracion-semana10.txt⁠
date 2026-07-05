@@ -1,0 +1,10 @@
+¿Qué 2 tareas harías primero? 
+Registrar incidencia y Enviar alerta a Telegram.
+
+¿Por qué son las más importantes?
+Porque establecen el canal principal de entrada de información y la capacidad de respuesta inmediata del equipo.
+
+Definición de terminado:
+1. El código fue probado y funciona sin errores.
+2. La funcionalidad cumple con los criterios de seguridad (sin datos sensibles).
+3. El avance quedó registrado en el repositorio de Git.
