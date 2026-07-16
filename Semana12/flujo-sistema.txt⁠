@@ -1,0 +1,7 @@
+FLUJ DEL SISTEMA: PETICIÓN EN 3 CLICS
+
+1. Creación de la Causa: Un líder comunitario o ciudadano ingresa a la plataforma, completa un formulario sencillo (título y descripción) y registra una nueva causa o petición.
+2. Almacenamiento en Base de Datos: El backend procesa el formulario y guarda la nueva causa en la base de datos con un ID único y la fecha de creación.
+3. Registro de Apoyos (Votos): Los miembros de la comunidad ingresan al enlace de la causa y, con un solo clic (aportando solo su nombre o firma digital básica), registran su apoyo a la iniciativa.
+4. Generación Automática de Documento: Una vez que la causa alcanza un número determinado de apoyos o se cierra el plazo, el sistema compila la información y genera un archivo PDF formal con la petición y el listado de firmas/apoyos.
+5. Notificación y Descarga: El sistema notifica a los organizadores mediante un canal automatizado (como Telegram) que el documento está listo, permitiendo su descarga para ser presentado ante las entidades competentes.
