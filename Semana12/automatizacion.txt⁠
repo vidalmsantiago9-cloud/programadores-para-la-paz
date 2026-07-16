@@ -1,0 +1,14 @@
+DISEÑO DE AUTOMATIZACIÓN (CON n8n Y TELEGRAM)
+
+1. Evento Disparador (Trigger):
+- Una nueva causa comunitaria es creada y guardada con éxito en la base de datos.
+
+2. Acción y Mensaje Enviado:
+- Se envía un mensaje automático a un canal o grupo de Telegram comunitario:
+  "📢 ¡Nueva Causa Creada! 
+  Se ha registrado la iniciativa: '{causa.titulo}'. 
+  Entra al sistema, conoce los detalles y apoya con tu firma. ¡La unión hace la fuerza! 💪"
+
+3. Datos Excluidos por Seguridad (Privacidad desde el diseño):
+- No se enviarán números de identificación (cédulas), números de teléfono, correos electrónicos, ni direcciones físicas de los creadores o de los firmantes. 
+- Solo se divulgará el título público de la causa para proteger la privacidad y evitar filtraciones de datos sensibles.
