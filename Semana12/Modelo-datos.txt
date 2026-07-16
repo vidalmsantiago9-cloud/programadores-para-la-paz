@@ -1,0 +1,20 @@
+MODELO DE DATOS SIMPLIFICADO - PETICIÓN EN 3 CLICS
+
+ENTIDAD 1: Causa
+--------------------------------------------------
+* id (Entero, Clave Primaria): Identificador único de cada petición.
+* titulo (Texto): Nombre corto y claro de la causa comunitaria.
+* descripcion (Texto): Explicación detallada del problema y la solicitud formal.
+* fecha (Fecha/Hora): Momento exacto en que se registró la propuesta en la plataforma.
+
+¿Para qué sirve?: Almacena el encabezado, el contexto y el propósito de las iniciativas ciudadanas creadas en el sistema.
+
+
+ENTIDAD 2: Apoyo
+--------------------------------------------------
+* id (Entero, Clave Primaria): Identificador único de cada voto o firma.
+* causa_id (Entero, Clave Foránea): Relación directa con el ID de la Causa que se está apoyando.
+* nombre (Texto): Nombre del ciudadano que apoya la causa (bajo el principio de minimización de datos).
+* fecha (Fecha/Hora): Registro del momento en que se realizó la firma digital o apoyo.
+
+¿Para qué sirve?: Registra de manera segura y transparente los respaldos individuales de la comunidad a una causa específica, permitiendo cuantificar el apoyo ciudadano.
